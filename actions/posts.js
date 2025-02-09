@@ -40,7 +40,7 @@ export async function createPost(prevState, formData) {
   }
 
   await storePost({
-    imageUrl: imageUrl,
+    imageUrl,
     title,
     content,
     userId: 1,
